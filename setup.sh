@@ -8,6 +8,7 @@ brew install git bash-completion zsh-completions curl
 
 echo 'installing languages'
 echo 'installing the useful ones'
+brew cask install java
 brew install r --with-java
 brew install python3 golang 
 
