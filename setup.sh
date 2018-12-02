@@ -12,7 +12,8 @@ brew install r --with-java
 brew install python3 golang 
 
 echo 'installing the fun ones!'
-haskell-stack mit-scheme minimal-racket clojure elm erlang elixir
+curl -sSL https://get.haskellstack.org/ | sh
+brew install mit-scheme minimal-racket clojure elm erlang elixir
 
 brew install emacs --with-cocoa --with-mailutils
 
